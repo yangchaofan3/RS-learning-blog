@@ -20,3 +20,5 @@ pd.Categorical
 具体的类别和对应的序号可以通过  codes  和 categories 来查看
 
 GridsearchCV 网格搜索文档：https://blog.51cto.com/emily18/2088128
+
+正则化：为了防止模型过拟合，降低结构风险，具体见https://www.zhihu.com/question/20924039
