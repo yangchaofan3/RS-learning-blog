@@ -22,3 +22,10 @@ pd.Categorical
 GridsearchCV 网格搜索文档：https://blog.51cto.com/emily18/2088128
 
 正则化：为了防止模型过拟合，降低结构风险，具体见https://www.zhihu.com/question/20924039
+
+L2 titanic中的语法知识：
+sklearn中的特征提取，DictVectorizer将特征one-hot编码转化成稀疏矩阵：https://www.cnblogs.com/hufulinblog/p/10591339.html
+
+pandas:data.to_dict(orient='records')& to_dict(orient='dict') (默认情况) & to_dict(orient='series')的区别：https://blog.csdn.net/m0_37804518/article/details/78444110
+
+k折交叉验证：https://www.cnblogs.com/zymei/p/10832582.html
