@@ -14,12 +14,18 @@ pd.get_dummies()  数据分析中专门用来将特征字段转化为0|1变量�
           yellow	   1	    0	      0
           green	     0	    1      	0
           blue	     0	    0	      1
- 
+dropna语法
+https://blog.csdn.net/dss_dssssd/article/details/82814673
+将数据按条件筛选的方法
+https://zhuanlan.zhihu.com/p/29720881
+连续数据离散化处理方法
+https://blog.csdn.net/suiyueruge1314/article/details/84946495
 pd.Categorical
 实际上是计算一个列表型数据中的类别数，即不重复项，它返回的是一个CategoricalDtype 类型的对象，相当于在原来数据上附加上类别信息 ，
 具体的类别和对应的序号可以通过  codes  和 categories 来查看
 数据数值化处理labelencoder和onehotlabelencoder： https://blog.csdn.net/cyan_soul/article/details/79252727
 GridsearchCV 网格搜索文档：https://blog.51cto.com/emily18/2088128
+
 
 正则化：为了防止模型过拟合，降低结构风险，具体见https://www.zhihu.com/question/20924039
 
