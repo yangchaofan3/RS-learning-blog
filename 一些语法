@@ -1,3 +1,4 @@
+数据预处理：
 pd.get_dummies()  数据分析中专门用来将特征字段转化为0|1变量的方法
           eg.  xiaoming = pd.DataFrame([1,2,3],index=['yellow','green','blue'],columns=['hats'])
 
@@ -24,6 +25,10 @@ pd.Categorical
 实际上是计算一个列表型数据中的类别数，即不重复项，它返回的是一个CategoricalDtype 类型的对象，相当于在原来数据上附加上类别信息 ，
 具体的类别和对应的序号可以通过  codes  和 categories 来查看
 数据数值化处理labelencoder和onehotlabelencoder： https://blog.csdn.net/cyan_soul/article/details/79252727
+
+在L5：surprise_SlopeOne中提及了数据预处理中如何将字段从原数据集提取并新增表头的方法
+
+
 GridsearchCV 网格搜索文档：https://blog.51cto.com/emily18/2088128
 
 
@@ -37,3 +42,5 @@ pandas:data.to_dict(orient='records')& to_dict(orient='dict') (默认情况) & t
 k折交叉验证：https://www.cnblogs.com/zymei/p/10832582.html
 
 np.vstack和np.hstack的区别：https://blog.csdn.net/u012609509/article/details/70319293
+
+L5 Surprise学习文档https://surprise.readthedocs.io/en/stable/reader.html 
