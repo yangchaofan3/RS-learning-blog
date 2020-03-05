@@ -28,6 +28,8 @@ pd.Categorical
 
 在L5：surprise_SlopeOne中提及了数据预处理中如何将字段从原数据集提取并新增表头的方法
 
+merge函数的具体用法，功能类似sql中的JOIN，可调参数和实现功能更多https://blog.csdn.net/brucewong0516/article/details/82707492
+
 
 GridsearchCV 网格搜索文档：https://blog.51cto.com/emily18/2088128
 
