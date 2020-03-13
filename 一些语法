@@ -46,3 +46,5 @@ k折交叉验证：https://www.cnblogs.com/zymei/p/10832582.html
 np.vstack和np.hstack的区别：https://blog.csdn.net/u012609509/article/details/70319293
 
 L5 Surprise学习文档https://surprise.readthedocs.io/en/stable/reader.html 
+
+L6 Colab中MovieLens实战，分别使用FunkSVD、BiasSVD和SVD++：https://www.cnblogs.com/lzhc/p/9545134.html
