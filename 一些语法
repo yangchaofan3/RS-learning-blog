@@ -1,4 +1,5 @@
 数据预处理：
+数据可视化seaborn的颜色选取xkcd_rgb字典：https://xkcd.com/color/rgb/
 pd.get_dummies()  数据分析中专门用来将特征字段转化为0|1变量的方法
           eg.  xiaoming = pd.DataFrame([1,2,3],index=['yellow','green','blue'],columns=['hats'])
 
