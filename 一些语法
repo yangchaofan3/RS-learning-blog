@@ -16,8 +16,12 @@ pd.get_dummies()  数据分析中专门用来将特征字段转化为0|1变量�
           yellow	   1	    0	      0
           green	     0	    1      	0
           blue	     0	    0	      1
-dropna语法
-https://blog.csdn.net/dss_dssssd/article/details/82814673
+当需要对数组转换时，比如把任意维数组转成1列或2行，另一个维度用负数表示未指定：https://www.jianshu.com/p/d9df005636a6
+dropna语法：https://blog.csdn.net/dss_dssssd/article/details/82814673
+
+数理统计模型statsmodel--LR官方文档：https://www.statsmodels.org/stable/regression.html
+statsmodel--tsa时间序列分析模型：https://blog.csdn.net/qq_41518277/article/details/85100652
+
 将数据按条件筛选的方法
 https://zhuanlan.zhihu.com/p/29720881
 连续数据离散化处理方法
@@ -32,22 +36,4 @@ pd.Categorical
 merge函数的具体用法，功能类似sql中的JOIN，可调参数和实现功能更多https://blog.csdn.net/brucewong0516/article/details/82707492
 
 
-GridsearchCV 网格搜索文档：https://blog.51cto.com/emily18/2088128
-
-
-正则化：为了防止模型过拟合，降低结构风险，具体见https://www.zhihu.com/question/20924039
-
-L2 titanic中的语法知识：
-sklearn中的特征提取，DictVectorizer将特征one-hot编码转化成稀疏矩阵：https://www.cnblogs.com/hufulinblog/p/10591339.html
-
-pandas:data.to_dict(orient='records')& to_dict(orient='dict') (默认情况) & to_dict(orient='series')的区别：https://blog.csdn.net/m0_37804518/article/details/78444110
-
-k折交叉验证：https://www.cnblogs.com/zymei/p/10832582.html
-
-np.vstack和np.hstack的区别：https://blog.csdn.net/u012609509/article/details/70319293
-
-L5 Surprise学习文档https://surprise.readthedocs.io/en/stable/reader.html 
-
-L6 Colab中MovieLens实战，分别使用FunkSVD、BiasSVD和SVD++：https://www.cnblogs.com/lzhc/p/9545134.html
-   创建对角阵np.eye()和np.identity()的区别 https://blog.csdn.net/m0_37393514/article/details/81455915
-   python的print格式化输出回顾  https://my.oschina.net/u/4082616/blog/3073746
+GridsearchCV 网格搜索文档：https://blog.51cto.com/emily1
